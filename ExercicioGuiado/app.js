@@ -6,6 +6,6 @@ btnTema.addEventListener('click', () => {
 
     const modoEscuro = document.body.classList.contains('dark');
 
-    btnTema.textContent = modoEscuro ? 'Modo Claro!' : 'Modo Escuro!';
+    btnTema.textContent = modoEscuro ? ' ✨ Modo Claro!' : ' 🌚 Modo Escuro!';
     
 });
